@@ -1,0 +1,29 @@
+.page-enter-active,
+.page-leave-active {
+	  transition: all .3s ease;
+}
+
+.page-leave-to {
+	//   transform: scale(.9,.9);
+	  opacity: 0;
+}
+
+.page-enter-from {
+	// transform: scale(.9,.9);
+	opacity: 0;
+}
+
+.layout-enter-active,
+.layout-leave-active {
+	  transition: all .3s;
+}
+
+.layout-leave-to {
+	//   transform: scale(.9,.9);
+	  opacity: 0;
+}
+
+.layout-enter-from {
+	// transform: scale(.9,.9);
+	opacity: 0;
+}

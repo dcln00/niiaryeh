@@ -1,0 +1,22 @@
+#brands {
+	padding-bottom: $padding-bottom;
+
+	.title {
+		@include title;
+	}
+
+	.col-3 {
+		img {
+			width: 40%;
+			height: auto;
+			object-fit: contain;
+			filter: grayscale(1);
+			opacity: .4;
+			transition: .5s;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+}

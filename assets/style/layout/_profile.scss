@@ -1,0 +1,74 @@
+#profile {
+	padding-top: $padding-top;
+	padding-bottom: $padding-bottom;
+
+	.col-lg-4 {
+	  aspect-ratio: 1;
+	  overflow: hidden;
+	}
+
+	.col-lg-8 {
+		overflow: hidden;
+	}
+  
+	.jumbo-img {
+	  img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	  }
+	}
+
+	.text {
+		position: relative;
+
+		.name > p {
+			font-size: 6rem;
+			color: color(accent);
+			font-family: $profile-font;
+		}
+
+		svg {
+			position: absolute;
+			left: 40px;
+			bottom: 150px;
+			overflow: visible;
+			transform: scale(1.6,1.6);
+			z-index: -1;
+		}
+
+		g#about {
+			overflow: visible;
+		}
+
+		.st0 {
+			fill:none;
+			stroke:#8E8E8E;
+			stroke-width:2;
+			stroke-miterlimit:10;
+			overflow: visible;
+		}
+	}
+  }
+
+  #profile-text {
+	padding-bottom: $padding-bottom;
+
+	.profile-title {
+		@include title;
+		text-align: left;
+	}
+
+	.profile-desc {
+		@extend .profile-title;
+		text-transform: capitalize;
+		line-height: 22px;
+		white-space: pre-wrap;
+	}
+
+	.signature {
+		margin-top: -2.5rem;
+		opacity: .5;
+	}
+  }
+  

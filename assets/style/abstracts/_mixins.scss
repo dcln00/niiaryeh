@@ -1,0 +1,9 @@
+@mixin title {
+	text-align: center;
+	font-size: 1rem;
+	letter-spacing: -0.03em;
+	text-transform: uppercase;
+	color: color(text);
+	padding-bottom: 3rem;
+	font-weight: 700;
+}

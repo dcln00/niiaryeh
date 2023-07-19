@@ -1,0 +1,194 @@
+article#dev {
+	padding: {
+		top: $ptm;
+		bottom: $pbm;
+	}
+
+	.document {
+		text-align: justify;
+
+		.featured-img {
+			// background-color: color(placeholder);
+			overflow: hidden;
+			aspect-ratio: 21/9;
+			margin-bottom: 2rem;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				object-position: top center;
+			}
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.details {
+		position: relative;
+
+		.details__inner {
+			position: sticky;
+			top: $ptm;
+			font-size: .8rem;
+			line-height: 30px;
+
+			.doc-title {
+				color: color(text);
+				text-transform: uppercase;
+				font-weight: 900;
+				letter-spacing: 0.15em;
+				font-size: .9rem;
+			}
+
+			.tag {
+				@extend .doc-title;
+				font-size: .8rem;
+				padding: 1rem 0;
+				font-weight: 400;
+				color: color(accent);
+			}
+
+			.description {
+				color: color(text);
+				padding-bottom: 2rem;
+				text-transform: uppercase;
+			}
+
+			.stack {
+				color: color(text);
+				padding-bottom: 2rem;
+				text-transform: uppercase;
+			}
+
+			.preview {
+				border: 1px solid color(text);
+				width: 40%;
+				padding: .6rem 0rem .6rem 1rem;
+				border-radius: 5px;
+				transition: .5s;
+
+				.prv-text {
+					position: relative;
+					display: inline-block;
+					@extend .stack;
+					padding-bottom: 0;
+					transition: .5s;
+
+					&:after {
+						font-family: 'FontAwesome';
+						content: " \f08e";
+						font-size: .6rem;
+						position: absolute;
+						top: -4px;
+						right: -12px;
+					}
+				}
+
+				&:hover>.prv-text {
+					color: color(accent);
+				}
+
+				&:hover {
+					border: 1px solid color(accent);
+					color: color(background);
+					width: 45%;
+				}
+			}
+		}
+	}
+}
+
+.nextprev {
+	padding: {
+		top: 2rem;
+		bottom: 5rem;
+
+	}
+
+	.next,
+	.prev {
+		color: color(text);
+		text-transform: uppercase;
+		font-size: .9rem;
+	}
+
+	.next-url a,
+	.prev-url a {
+		color: color(accent);
+	}
+}
+
+
+article#brand {
+	padding: {
+		top: $ptm;
+		bottom: $pbm;
+	}
+
+	.document {
+		text-align: justify;
+
+		.featured-img {
+			margin-bottom: 2rem;
+
+			img {
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.details {
+		position: relative;
+
+		.details__inner {
+			position: sticky;
+			top: $ptm;
+			font-size: .8rem;
+			line-height: 30px;
+
+			.doc-title {
+				color: color(text);
+				text-transform: uppercase;
+				font-weight: 900;
+				letter-spacing: 0.15em;
+				font-size: .9rem;
+			}
+
+			.description {
+				color: color(text);
+				padding-bottom: 2rem;
+				text-transform: uppercase;
+				padding: 1rem 0;
+			}
+
+			.tag-cloud {
+				display: inline-block;
+
+				.tag {
+					color: color(text);
+					padding-bottom: 2rem;
+					text-transform: uppercase;
+					padding: .3rem .8rem;
+					border: 1px solid color(text);
+					margin-right: 1rem;
+					margin-bottom: 1rem;
+				}
+			}
+		}
+	}
+
+	.pagination-icons {
+		.navigation {
+			position: sticky;
+			top: $ptm;
+		}
+	}
+}
