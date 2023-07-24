@@ -1,5 +1,5 @@
 <template lang="pug">
-section#portfolio.container.px-0(data-aos="fade")
+section#portfolio.container.px-0
 	ContentSlot(:use='$slots.image' unwrap)
 	.title #[ContentSlot(:use='$slots.title' unwrap)] 
 	.description

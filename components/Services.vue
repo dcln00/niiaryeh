@@ -2,9 +2,9 @@
 section#services.container.px-0(v-if='$device.isDesktop')
 	.row 
 		.col-lg-3
-			.title(data-aos="fade-right") #[ContentSlot(:use='$slots.title' unwrap)]
+			.title #[ContentSlot(:use='$slots.title' unwrap)]
 		.col-lg-9
-			.description.d-flex.justify-content-between(v-for='(item, index) in data.services' :key='index' data-aos="fade-left" data-aos-delay='500') 
+			.description.d-flex.justify-content-between(v-for='(item, index) in data.services' :key='index') 
 				.details
 					.desc-title #[NuxtLink(:to="item.url") {{ item.title }}]
 					.desc-par {{ item.paragraph }}

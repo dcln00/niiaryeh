@@ -1,8 +1,5 @@
 export default defineNuxtConfig({
-  ssr: false,
-  nitro: {
-    preset: 'vercel'
-  },
+  ssr: true,
   app: {
     head: {
       title: 'niiaryeh',
@@ -74,4 +71,7 @@ export default defineNuxtConfig({
     enabled: true,
   },
   content: {},
+  nitro: {
+    preset: 'vercel',
+  },
 })

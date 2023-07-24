@@ -3,12 +3,12 @@ div
 	section#profile-text.container.pb-0.px-4(v-if="$device.isMobileOrTablet")
 		.row
 			.col-sm-4
-				.profile-title(data-aos="fade-right" v-if="$device.isDesktop") #[ContentSlot(:use='$slots.text' unwrap='div')]
+				.profile-title(v-if="$device.isDesktop") #[ContentSlot(:use='$slots.text' unwrap='div')]
 
 			.col-sm-8
 				.profile-desc #[ContentSlot(:use='$slots.profile' unwrap='div')]
 				.signature #[ContentSlot(:use='$slots.signature' unwrap)]
-
+				
 	section#profile.container
 		.row
 			.col-lg-8.d-flex.justify-content-center.align-items-center.text.px-5(v-if="$device.isDesktop")
@@ -34,16 +34,16 @@ div
 	section#profile-text.container(v-if="$device.isDesktop")
 		.row
 			.col-sm-4
-				.profile-title(data-aos="fade-right" v-if="$device.isDesktop") #[ContentSlot(:use='$slots.text' unwrap='div')]
+				.profile-title(v-if="$device.isDesktop") #[ContentSlot(:use='$slots.text' unwrap='div')]
 
-			.col-sm-8(data-aos="fade-left" data-aos-delay='500')
+			.col-sm-8
 				.profile-desc #[ContentSlot(:use='$slots.profile' unwrap='div')]
 				.signature #[ContentSlot(:use='$slots.signature' unwrap='div')]
 		.row.mt-5
 			.col-sm-4
-				.profile-title(data-aos="fade-right" v-if="$device.isDesktop") Music Picks
+				.profile-title(v-if="$device.isDesktop") Music Picks
 
-			.col-sm-8(data-aos="fade-left" data-aos-delay='500')
+			.col-sm-8
 				.profile-desc
 					iframe(src='https://open.spotify.com/embed/playlist/68HOm9ZCB1PO47Xyg0EMBN?theme=0' width='100%' height='80' frameborder='0' allowtransparency='true' allow='encrypted-media')
 </template>

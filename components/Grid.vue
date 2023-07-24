@@ -1,7 +1,7 @@
 <template lang="pug">
 div
 	section#portfolio-box.container.px-0(v-if='$device.isDesktop')
-		.box(v-for='(item, index) in data.portfolio' :key='index' data-aos="fade-up" :data-aos-delay="currentNumber += durationNumber + 100")
+		.box(v-for='(item, index) in data.portfolio' :key='index')
 			.port-img
 				NuxtLink(:href='item.url')
 					img(:src='item.photo' alt='portfolio')

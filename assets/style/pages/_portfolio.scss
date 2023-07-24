@@ -76,15 +76,6 @@ article#dev {
 					@extend .stack;
 					padding-bottom: 0;
 					transition: .5s;
-
-					&:after {
-						font-family: 'FontAwesome';
-						content: " \f08e";
-						font-size: .6rem;
-						position: absolute;
-						top: -4px;
-						right: -12px;
-					}
 				}
 
 				&:hover>.prv-text {
