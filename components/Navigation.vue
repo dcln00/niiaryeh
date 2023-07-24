@@ -17,7 +17,9 @@ nav.container-fluid.px-0(v-if="$device.isDesktop")
 			i(class="fa fa-times" aria-hidden="true")
 		.navlinks
 			NuxtLink.slidelink(v-for='(item, index) in nav' :to="item.url" @click='closeMenu' :key='index') {{ item.title }}
-		.navfooter
+		.navfooter.d-flex
+			NuxtLink(to="/brand" @click='closeMenu') Brand
+			NuxtLink(to="/dev" @click='closeMenu') Dev
 
 </template>
 

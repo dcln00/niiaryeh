@@ -28,7 +28,7 @@
 			height: 100dvh;
 			width:100%;
 			bottom: 100%;
-			backdrop-filter: blur(150px);
+			backdrop-filter: blur(50px);
 			position: fixed;
 			z-index: -1;
 			transition: .5s;
@@ -70,6 +70,37 @@
 				text-transform: uppercase;
 				width: 40%;
 	
+				a{
+					display: block;
+					color: color(text);
+					text-decoration: none;
+					font-size: .9rem;
+					padding: 12px 0;
+					opacity: 1;
+					transition: .5s;
+					transform: translate(0, 0);
+	
+					&.router-link-exact-active {
+						color: color(accent);
+					  }
+					
+					&:hover {
+						opacity: .4;
+						transform: translate(5px, 0);
+					}
+				}
+			}
+
+			.navfooter {
+				position:absolute;
+				left: 50px;
+				bottom: 15%;
+				z-index: 1;
+				font-size: 0.8rem;
+				text-transform: uppercase;
+				width: 40%;
+				column-gap: 50px;
+
 				a{
 					display: block;
 					color: color(text);
@@ -205,9 +236,10 @@
 			font-size: .8rem;
 		}
 
-		.col-4 {
+		.col-6 {
 			img {
-				width: 70%;
+				width: 50%;
+				margin-top: 2rem;
 			}
 		}
 	}

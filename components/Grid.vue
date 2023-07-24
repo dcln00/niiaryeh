@@ -11,9 +11,10 @@ div
 	section#portfolio-box.container.px-4(v-else-if='$device.isMobileOrTablet')
 		.box(v-for='(item, index) in data.portfolio' :key='index')
 			.port-img
-				img(:src='item.photo' alt='portfolio')
+				NuxtLink(:href='item.url')
+					img(:src='item.photo' alt='portfolio')
 				.tag {{item.tag}}
-			.port-desc {{ `0${index + 1}/ ${item.title}` }}
+			.port-desc #[NuxtLink(:href='item.url') {{ `0${index + 1}/ ${item.title}` }}]
 </template>
 
 <script setup>

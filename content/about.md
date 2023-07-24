@@ -14,13 +14,13 @@ Nii Aryeh
 Profile
 
 #profile
-Hello, my name is Nii Aryeh, a Front-End Developer from West Africa. 
+Hello, I'm Nii Aryeh, a Front-End Developer from West Africa.
 	
-As a front-end web developer, I have 3+ years experience in HTML/CSS JS and CMS Applications. Some of the few technologies i've worked with and still use include html, css, bootstrap, vue, nuxt & more.
+As a front-end web developer, I have 3+ years experience in HTML/CSS JS and CMS Applications. Some of the few technologies i've worked with and still use include React, Vue, Webflow & more.
 	
-I love reading, travelling, podcasts, working out, music, design and apple juice particularly martinellis.
+Apart from my passion for crafting web apps and brand identities, I have diverse interests including reading, traveling, podcasts, working out, music, design, and a special fondness for apple juice, particularly martinellis.
 	
-Also as a digital artist & mograph designer, I've had experience with adobe software including Adobe Photoshop, Illustrator, InDesign and After Effects.
+Additionally, my creative endeavors extend beyond coding, as I'm also proficient in digital artistry and mograph design, adeptly using Adobe software like Photoshop, Illustrator, InDesign, and After Effects.
 
 i make beautiful web apps and brand identities.
 
