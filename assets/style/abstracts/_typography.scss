@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
@@ -6,3 +7,13 @@
     font-family: Signature;
 	src: url('~/public/profile/fonts/QhueenySignature.otf');
   }
+=======
+@font-face {
+    font-family: Sig;
+	src: url('~/assets/fonts/Qhueeny-Signature.otf');
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+>>>>>>> Stashed changes
