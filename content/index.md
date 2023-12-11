@@ -14,21 +14,25 @@ services: [
 ]
 projects: [
 	{
+		url: 'https://contacts.niiaryeh.com/',
 		title: 'Contacts',
 		description: 'Contacts app made with react',
 		photo: '/projects/contacts.png'
 	},
 	{
+		url: 'https://streamlab.niiaryeh.com/',
 		title: 'Streamlab',
 		description: 'Working with APIs. Movie database app built with nuxt 3 + typescript. Powered with the TMdB API.',
 		photo: '/projects/streamlab.png'
 	},
 	{
+		url: 'https://thecreativeinc.agency/',
 		title: 'The Creative Inc',
 		description: 'The creative inc was established primarily to foster collaboration among fresh and developing talents. The intention was and still is; Seeking out new voices to amplify African creativity.',
 		photo: '/projects/tci.png'
 	},
 	{
+		url: 'https://eisenlegal.vercel.app/',
 		title: 'Eisenlegal',
 		description: 'Eisenlegal. Landing page template designed with legal firms in mind. nuxt pwa with sanity.',
 		photo: '/projects/eisenlegal.jpg'

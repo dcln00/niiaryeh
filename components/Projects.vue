@@ -1,15 +1,15 @@
 <template lang="pug">
-section#projects.container.px-0
+section#projects.container(:class="!$device.isDesktop ? 'px-4' : 'px-0'")
 	.title #[ContentSlot(:use='$slots.title' unwrap)]
 	.heading
-	.project-container.d-flex
+	.project-container(:class="$device.isDesktop ? 'd-flex' : ''")
 		.box(v-for="(item, index) in data.projects" :key="index") 
 			.port-img 
-				NuxtLink
+				NuxtLink(:to="item.url")
 					NuxtImg(:src="item.photo")
-				.tag Preview
+				.tag(v-if="$device.isDesktop") Preview
 			.port-header
-				.port-title {{ item.title }}
+				.port-title #[NuxtLink(:to="item.url") {{ item.title }}]
 			.port-desc {{ item.description }}
 </template>
 

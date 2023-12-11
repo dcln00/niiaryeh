@@ -1,5 +1,5 @@
 <template lang="pug">
-section#skills.container.px-0
+section#skills.container(:class="!$device.isDesktop ? 'px-4' : 'px-0'")
 	.row 
 		.col-lg-3
 			.title #[ContentSlot(:use='$slots.title' unwrap)]

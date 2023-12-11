@@ -7,7 +7,7 @@ header.container-fluid.px-0
 		.description.me-auto(v-if="$device.isDesktop") {{ description }}
 
 		Transition(name='nav')
-			.menu.me-5.d-flex(v-if="show")
+			.menu.me-5.d-flex(v-if="show && $device.isDesktop")
 				NuxtLink(to='/about' class="button-one me-3" @click.native="show = false" external) about
 				NuxtLink(to='/projects' class="button-two me-3" @click.native="show = false" external) projects
 				NuxtLink(to='/contact' class="button-one" @click.native="show = false" external) contact
@@ -19,13 +19,11 @@ header.container-fluid.px-0
 <script setup lang="ts">
 interface Props {
 	description: string,
-	settings: object
+	settings: object,
+	show: boolean,
+	handleShow: Function,
 }
 
 defineProps<Props>()
-const show = ref(false)
 
-function handleShow() {
-	show.value = !show.value
-}
 </script>
