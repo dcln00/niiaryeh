@@ -28,6 +28,7 @@ export default defineNuxtConfig({
 		'@nuxt/image',
 		'nuxt-icon',
 		'@nuxt/content',
+		'@nuxthq/studio',
 	],
 	nitro: {
 		preset: 'vercel',
