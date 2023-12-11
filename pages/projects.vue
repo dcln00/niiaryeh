@@ -1,10 +1,10 @@
 <template lang="pug">
 div
-	ContentDoc
+	Portfolio
 </template>
 
 <script setup lang="ts">
 useHead({
-	titleTemplate: '%s > contact',
+	titleTemplate: '%s > projects',
 })
 </script>

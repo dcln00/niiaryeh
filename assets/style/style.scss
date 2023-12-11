@@ -1,29 +1,12 @@
 // abstracts & base
-@import 'abstracts/variables';
-@import 'abstracts/typography';
-@import 'abstracts/colors';
-@import 'abstracts/mixins';
-@import 'base/reset';
-@import 'base/transitions';
-
+@use 'base/reset';
+@use 'base/transitions';
 // components
-@import 'components/navigation';
-
-// layout
-@import 'layout/header';
-@import 'layout/footer';
-
-
-// pages
-@import 'pages/index';
-@import 'pages/about';
-@import 'pages/contact';
-@import 'pages/dev';
-@import 'pages/brand';
-@import 'pages/error';
-
-// dynamic pages
-@import 'pages/portfolio';
-
-// media queries
-@import 'base/mq';
+@use 'components/header';
+@use 'components/footer';
+@use 'components/hero';
+@use 'components/projects';
+@use 'components/skills';
+@use 'components/profile';
+@use 'components/portfolio';
+@use 'components/cta';

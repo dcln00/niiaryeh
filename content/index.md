@@ -3,84 +3,52 @@ title: 'niiaryeh'
 description: 'nii aryeh'
 services: [
 	{	title: 'Web Development',
-		paragraph: 'web/software development',
-		url: /dev
+		paragraph: 'html/css, react, vue, typescript, cms (wordpress, squarespace, webflow, etc)',
 	},
 	{	title: 'Brand Identity',
-		paragraph: 'brand development',
-		url: /brand
-	}
+		paragraph: 'adobe photoshop, illustrator, after effects',
+	},
+	{	title: 'UI/UX design',
+		paragraph: 'figma, adobe photoshop',
+	},
 ]
-portfolio: [
+projects: [
 	{
-		photo: /index/portfolio/streamlab.png,
+		title: 'Contacts',
+		description: 'Contacts app made with react',
+		photo: '/projects/contacts.png'
+	},
+	{
 		title: 'Streamlab',
-		tag: 'Nuxt Js',
-		url: /dev/streamlab
+		description: 'Working with APIs. Movie database app built with nuxt 3 + typescript. Powered with the TMdB API.',
+		photo: '/projects/streamlab.png'
 	},
 	{
-		photo: /index/portfolio/thumbnail-06.png,
-		title: 'theme aduane',
-		tag: 'Vue Js',
-		url: /dev/themeaduane
+		title: 'The Creative Inc',
+		description: 'The creative inc was established primarily to foster collaboration among fresh and developing talents. The intention was and still is; Seeking out new voices to amplify African creativity.',
+		photo: '/projects/tci.png'
 	},
 	{
-		photo: /index/portfolio/thumbnail-09.jpg,
-		title: 'eisenlegal',
-		tag: 'Nuxt Js',
-		url: /dev/eisenlegal
-	},
-	# {
-	# 	photo: /index/portfolio/thumbnail-07.png,
-	# 	title: '61x3s',
-	# 	tag: 'Bootstrap',
-	# 	url: https://projects.niiaryeh.me/61x3s
-	# },
-]
-brands: [
-	{
-		photo: /index/brands/tci.png,
-		alt: 'brands'
-	},
-	{
-		photo: /index/brands/alora.png,
-		alt: 'brands'
-	},
-	{
-		photo: /index/brands/zen.svg,
-		alt: 'brands'
-	},
-	{
-		photo: /index/brands/alegna.png,
-		alt: 'brands'
+		title: 'Eisenlegal',
+		description: 'Eisenlegal. Landing page template designed with legal firms in mind. nuxt pwa with sanity.',
+		photo: '/projects/eisenlegal.jpg'
 	},
 ]
 ---
 
-::jumbotron
-#image
-[![jumbotron](/index/jumbotron/tci.png)](/dev/thecreativeinc)
-<!-- {:target="_blank"} -->
-
-#title
-[The Creative Inc](/dev/thecreativeinc)
-
-#description
-The creative inc was established primarily to foster collaboration among fresh and developing talents. The intention was and still is; Seeking out new voices to amplify African creativity.
-
-#tag
-Built with wordpress
+::hero
+#text
+Hey, I'm Nii.\
+A [Front-End Developer] & [Creative Designer]\
+based in Accra, Ghana.
 ::
 
-::services
+::skills
 #title
-Services
+Skills and Expertise
 ::
 
-::grid
-::
-
-::brands
+::projects
 #title
-Brands ive worked with
+Projects
 ::

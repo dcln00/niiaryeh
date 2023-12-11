@@ -4,19 +4,13 @@ description: 'nii aryeh > about'
 ---
 
 ::profile
-#title
-Nii Aryeh
-
-#image
-![profile-photo](/profile/self.jpg)
-
-#text
-Profile
+#photo
+![self](/profile/self.jpg)
 
 #profile
-Hello, I'm Nii Aryeh, a Front-End Developer from West Africa.
+Hello, I'm Nii Aryeh, a Front-End Developer from Accra, Ghana.
 	
-As a front-end web developer, I have 3+ years experience in HTML/CSS JS and CMS Applications. Some of the few technologies i've worked with and still use include React, Vue, Webflow & more.
+As a front-end web developer, I have 5+ years experience in HTML/CSS JS and CMS Applications. Some of the few technologies i've worked with and still use include React, Vue, Webflow & more.
 	
 Apart from my passion for crafting web apps and brand identities, I have diverse interests including reading, traveling, podcasts, working out, music, design, and a special fondness for apple juice, particularly martinellis.
 	
@@ -27,5 +21,5 @@ i make beautiful web apps and brand identities.
 Cheers, Nii !
 
 #signature
-![profile-photo](/profile/signature.png)
+![signature](/profile/signature.png)
 ::

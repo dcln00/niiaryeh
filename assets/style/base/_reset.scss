@@ -1,53 +1,56 @@
+@use '../abstracts' as a;
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur817.cur), auto !important;
+	// outline: auto;
 }
 
 ::selection {
-	background-color: color(selection);
-	color: #ededed;
+	background-color: a.color(selection);
+	color: a.color(white);
 }
 
-:root {
-	overflow-x: hidden;
-	transition: all 0.5s;
-	font-size: 14px;
-	scrollbar-color: color(sub) color(black);
-	scrollbar-width: thin;
-  }
-
-  ::-webkit-scrollbar {
+::-webkit-scrollbar {
 	width: 7px;
   }
   
   ::-webkit-scrollbar-track {
-	background: color(black);
+	background: a.color(black);
   }
   
   ::-webkit-scrollbar-thumb {
-	background: color(sub);
+	background: a.color(accent);
   }
 
-  body {
-	font-family: $body-font;
-	background-color: color(background);
+:root {
+	transition: all 0.5s;
+	font-size: 14px;
+	scrollbar-color: a.color(accent) a.color(black);
+	scrollbar-width: thin;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: a.$body-font;
+	background-color: a.color(background);
 	// overflow-x: hidden;
-  }
+}
 
-  p {
-	color: color(text);
-  }
-
-  a {
-	color: color(text);
+a {
+	color: a.color(white);
 	text-decoration: none;
 	opacity: 1;
 	transition: .3s;
 
 	&:hover {
 		opacity: .75;
+		color: a.color(accent);
 	}
-  }
+}

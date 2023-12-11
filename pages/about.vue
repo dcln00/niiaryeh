@@ -1,9 +1,9 @@
 <template lang="pug">
 div
-	ContentDoc(path="/about")
+	ContentDoc
 </template>
 
-<script setup>
+<script setup lang="ts">
 useHead({
 	titleTemplate: '%s > about',
 })

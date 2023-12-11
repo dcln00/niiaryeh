@@ -1,0 +1,69 @@
+@use '../abstracts' as *;
+
+header {
+	color: color(white);
+	background-color: color(sub);
+
+	.mainheader {
+		padding: {
+			top: 1rem;
+			bottom: 1rem;
+		}
+
+		.logo a {
+			color: color(white);
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 1rem;
+			font-weight: 800;
+			letter-spacing: 0.29em;
+		}
+
+		// .other-button {
+		// 	font-size: .9rem;
+		// }
+
+		.description, .menu {
+			text-transform: uppercase;
+			color: color(white);
+			font-size: 0.7rem;
+			font-weight: 900;
+			letter-spacing: 0.173em;
+		}
+
+		.hamburger {
+			width: 35px;
+			height: 42px;
+			position: relative;
+			opacity: 1;
+			transition: .5s;
+			cursor: pointer;
+
+			&:hover {
+				opacity: .8;
+			}
+
+			&:hover>span:after {
+				width: 100%;
+			}
+
+			span {
+				border-bottom: 1px solid color(white);
+				width: 100%;
+				height: 45%;
+				color: black;
+				display: block;
+
+				&:after {
+					content: '';
+					position: absolute;
+					left: 0;
+					width: 50%;
+					height: 55%;
+					border-bottom: 1px solid color(white);
+					transition: .5s;
+				}
+			}
+		}
+	}
+}

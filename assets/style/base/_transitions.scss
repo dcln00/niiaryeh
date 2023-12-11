@@ -1,29 +1,14 @@
-.page-enter-active,
-.page-leave-active {
-	  transition: all .3s ease;
+.nav-enter-active,
+.nav-leave-active {
+	  transition: all .4s;
 }
 
-.page-leave-to {
-	//   transform: scale(.9,.9);
+.nav-leave-to {
+	  transform: translate(10px, 0);
 	  opacity: 0;
 }
 
-.page-enter-from {
-	// transform: scale(.9,.9);
-	opacity: 0;
-}
-
-.layout-enter-active,
-.layout-leave-active {
-	  transition: all .3s;
-}
-
-.layout-leave-to {
-	//   transform: scale(.9,.9);
-	  opacity: 0;
-}
-
-.layout-enter-from {
-	// transform: scale(.9,.9);
+.nav-enter-from {
+	transform: translate(10px, 0);
 	opacity: 0;
 }

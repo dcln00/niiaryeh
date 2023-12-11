@@ -1,11 +1,17 @@
 <template lang="pug">
 div
-	Navigation
-	Header(v-if='$route.path === "/dev" || $route.path === "/dev/"' :tagline="`Web Development`")
-	Header(v-else-if='$route.path === "/brand" || $route.path === "/brand/"' :tagline="`Branding Identity`")
-	Header(v-else)
+	Header(
+		:description="route.path === '/' ? `${settings.tagline}` : route.path.includes('/about') ? 'about' : route.path.includes('/contact') ? 'contact' : route.path.includes('/projects') ? 'projects' : `${settings.tagline}`" 
+		:settings="settings"
+		)
 	main
 		slot
 	Footer
 </template>
 
+<script setup lang="ts">
+const route = useRoute()
+const settings = useSettings()
+
+console.log(route.path)
+</script>

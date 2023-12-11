@@ -1,4 +1,4 @@
 <template lang="pug">
 div
-	ContentDoc(path="/")
+	ContentDoc
 </template>
