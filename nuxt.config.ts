@@ -30,6 +30,11 @@ export default defineNuxtConfig({
 		'@nuxt/content',
 		'@nuxthq/studio',
 	],
+	runtimeConfig: {
+		public: {
+			studioTokens: process.env.NUXT_PUBLIC_STUDIO_TOKENS
+		}
+	},
 	nitro: {
 		preset: 'vercel',
 	},
