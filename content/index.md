@@ -3,7 +3,7 @@ title: 'niiaryeh'
 description: 'nii aryeh'
 services: [
 	{	title: 'Web Development',
-		paragraph: 'html/css, react, vue, typescript, cms (wordpress, squarespace, webflow, etc)',
+		paragraph: 'html/css, react, vue, typescript, graphql, cms (wordpress, squarespace, webflow, etc)',
 	},
 	{	title: 'Brand Identity',
 		paragraph: 'adobe photoshop, illustrator, after effects',
