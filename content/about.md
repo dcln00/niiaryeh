@@ -8,9 +8,9 @@ description: 'nii aryeh > about'
 ![self](/profile/self.jpg)
 
 #profile
-Hello, I'm Nii Aryeh, a Front-End Developer from Accra, Ghana.
+Hello, I'm Nii Aryeh, a Full Stack Developer from Accra, Ghana.
 	
-As a front-end web developer, I have 5+ years experience in HTML/CSS JS and CMS Applications. Some of the few technologies i've worked with and still use include React, Vue, Webflow & more.
+As a fullstack developer, I have 5+ years experience in HTML/CSS JS and CMS Applications as well as 2+ years experience in NodeJs and Express. Some of the few technologies i've worked with and still use include React, Vue, Webflow & more.
 	
 Apart from my passion for crafting web apps and brand identities, I have diverse interests including reading, traveling, podcasts, working out, music, design, and a special fondness for apple juice, particularly martinellis.
 	

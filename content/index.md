@@ -2,8 +2,11 @@
 title: 'niiaryeh'
 description: 'nii aryeh'
 services: [
-	{	title: 'Web Development',
-		paragraph: 'html/css, react, vue, typescript, graphql, cms (wordpress, squarespace, webflow, etc)',
+	{	title: 'Front End Development',
+		paragraph: 'html/css, react, vue, typescript, cms (wordpress, squarespace, webflow, etc)',
+	},
+  {	title: 'Back End Development',
+		paragraph: 'Nodejs, Express, graphql',
 	},
 	{	title: 'Brand Identity',
 		paragraph: 'adobe photoshop, illustrator, after effects',
@@ -43,7 +46,7 @@ projects: [
 ::hero
 #text
 Hey, I'm Nii.\
-A [Front-End Developer] & [Creative Designer]\
+A [Software Developer] & [Creative Designer]\
 based in Accra, Ghana.
 ::
 
