@@ -1,0 +1,38 @@
+@use '../abstracts' as a;
+
+#error {
+	height: 100dvh;
+
+	.error-message {
+		color: a.color(text);
+
+		.title {
+			text-align: center;
+			padding: 1.2rem 0;
+			line-height: 70px;
+			font-size: 7rem;
+			text-transform: uppercase;
+			color: a.color(accent);
+			font-weight: 900;
+		}
+
+		.message {
+			text-align: center;
+		}
+
+		.button {
+			text-align: center;
+			padding: 1rem 0;
+
+			span {
+				color: a.color(accent);
+				cursor: pointer;
+				transition: .3s;
+
+				&:hover {
+					opacity: .65;
+				}
+			}
+		}
+	}
+}

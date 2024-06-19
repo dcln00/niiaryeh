@@ -1,0 +1,36 @@
+@use '../abstracts' as a;
+
+#hero {
+	padding: {
+		top: a.$padding;
+		bottom: a.$padding;
+	}
+	color: a.color(text);
+	font-size: 3.5rem;
+	font-weight: 900;
+	letter-spacing: -0.03em;
+
+	span {
+		color: a.color(accent);
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	button {
+		font-size: 1rem;
+		background-color: a.color(white);
+		color: a.color(background);
+		border: none;
+		padding: .8rem 1.5rem;
+
+		div {
+			column-gap: 5px;
+		}
+	}
+
+	.buttons {
+		column-gap: 15px;
+	}
+}

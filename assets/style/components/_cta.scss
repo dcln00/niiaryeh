@@ -1,0 +1,21 @@
+@use '../abstracts' as a;
+
+#cta {
+	padding: {
+		top: a.$padding;
+		bottom: a.$padding;
+	}
+
+	.title {
+		font-size: 5rem;
+		font-weight: 100;
+		text-align: left;
+		line-height: 80px;
+		color: a.color(accent);
+	}
+
+	.details {
+		column-gap: 30px;
+		text-transform: lowercase;
+	}
+}
