@@ -15,4 +15,3 @@ useHead({
 div
 	ContentDoc
 </template>
-

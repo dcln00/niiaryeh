@@ -17,10 +17,10 @@ services: [
 ]
 projects: [
 	{
-		url: 'https://contacts.niiaryeh.com/',
-		title: 'Contacts',
-		description: 'Contacts app made with react',
-		photo: '/projects/contacts.png'
+		url: 'https://blackband.vercel.app',
+		title: 'Blackband',
+		description: 'Connecting African diaspora travelers with authentic African cultural experiences.',
+		photo: '/projects/blackband.png'
 	},
 	{
 		url: 'https://streamlab.niiaryeh.com/',
@@ -33,6 +33,12 @@ projects: [
 		title: 'The Creative Inc',
 		description: 'The creative inc was established primarily to foster collaboration among fresh and developing talents. The intention was and still is; Seeking out new voices to amplify African creativity.',
 		photo: '/projects/tci.png'
+	},
+	{
+		url: 'https://contacts.niiaryeh.com/',
+		title: 'Contacts',
+		description: 'Contacts app made with react',
+		photo: '/projects/contacts.png'
 	},
 	{
 		url: 'https://eisenlegal.vercel.app/',
