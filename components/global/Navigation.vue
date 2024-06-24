@@ -4,6 +4,7 @@
 		.close-btn.d-flex.justify-content-center.align-items-center(@click="handleShow") 
 			Icon(name="solar:close-square-bold" size="2em")
 		.links
+			NuxtLink(to='https://niiaryeh.tumblr.com/' class="btn button-one" external) design
 			NuxtLink(to='/about' class="btn button-one" external) about
 			NuxtLink(to='/work' class="btn button-two" external) work
 			NuxtLink(to='/contact' class="btn button-one" external) contact
