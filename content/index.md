@@ -17,10 +17,16 @@ services: [
 ]
 projects: [
 	{
-		url: 'https://blackband.vercel.app',
+		url: 'https://blackband.co',
 		title: 'Blackband',
 		description: 'Connecting African diaspora travelers with authentic African cultural experiences.',
 		photo: '/projects/blackband.png'
+	},
+	{
+		url: 'https://www.crescendogh.com',
+		title: 'Crescendo Foods',
+		description: 'Crescendo, an affordable community centered Ghana FDA-approved kitchen space.',
+		photo: '/projects/crescendo.png',
 	},
 	{
 		url: 'https://streamlab.niiaryeh.com/',
@@ -40,12 +46,12 @@ projects: [
 		description: 'Contacts app made with react',
 		photo: '/projects/contacts.png'
 	},
-	{
-		url: 'https://eisenlegal.vercel.app/',
-		title: 'Eisenlegal',
-		description: 'Eisenlegal. Landing page template designed with legal firms in mind. nuxt pwa with sanity.',
-		photo: '/projects/eisenlegal.jpg'
-	},
+	# {
+	# 	url: 'https://eisenlegal.vercel.app/',
+	# 	title: 'Eisenlegal',
+	# 	description: 'Eisenlegal. Landing page template designed with legal firms in mind. nuxt pwa with sanity.',
+	# 	photo: '/projects/eisenlegal.jpg'
+	# },
 ]
 ---
 

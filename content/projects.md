@@ -3,6 +3,14 @@ title: 'niiaryeh'
 description: 'nii aryeh > work'
 projects: [
 	{
+		title: 'Crescendo Foods',
+		url: 'https://www.crescendogh.com',
+		github: false,
+		photo: '/projects/crescendo.png',
+		description: 'Crescendo, an affordable community centered Ghana FDA-approved kitchen space.',
+		stack: ['Tailwind', 'Nuxt 3', 'Typescript', 'Nuxt Content']
+	},
+	{
 		title: 'Cassette',
 		url: 'https://cassette.productions',
 		github: false,
@@ -12,8 +20,8 @@ projects: [
 	},
 	{
 		title: 'Blackband',
-		url: 'https://blackband.vercel.app',
-		github: true,
+		url: 'https://blackband.co',
+		github: false,
 		githuburl: 'https://github.com/dcln00/blackband',
 		photo: '/projects/blackband.png',
 		description: 'Our dynamic platform connects individuals and enterprises to strategic partnerships, travel, and lifestyle experiences to learn more about Africa.Our experts, including travel planners, cultural ambassadors, and local guides, curate premium cultural experiences connecting African diaspora travelers with authentic African cultural experiences.',
@@ -34,7 +42,7 @@ projects: [
 		githuburl: 'https://github.com/dcln00/contacts',
 		photo: '/projects/contacts.png',
 		description: 'Contacts app developed using react fundamentals including hooks, components and conditional rendering + vite. Contacts are saved in local storage.',
-		stack: ['React', 'JS', 'Bootstrap', 'Supabase']
+		stack: ['React', 'JSX', 'Bootstrap', 'Supabase']
 	},
 	{
 		title: 'Streamlab',
