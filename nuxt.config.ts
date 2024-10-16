@@ -35,6 +35,11 @@ export default defineNuxtConfig({
 			{ name: "'Montserrat', sans-serif", provider: 'google' },
 		],
 		provider: 'google',
+		defaults: {
+			fallbacks: {
+				'sans-serif': []
+			}
+		}
 	},
 	site: {
 		url: 'https://www.niiaryeh.com',
