@@ -50,6 +50,29 @@ const projects = [
 		description: 'Working with APIs. Movie database app built with nuxt 3 + typescript. Powered with the TMdB API.'
 	},
 ]
+
+const other = [
+	{
+		title: 'Kwasi Darko',
+		url: 'https://kwasidarko.online/'
+	},
+	{
+		title: 'The Creative Inc',
+		url: 'https://thecreativeinc.agency/'
+	},
+	{
+		title: 'Contacts',
+		url: 'https://contacts.niiaryeh.com/'
+	},
+	{
+		title: 'Eisenlegal',
+		url: 'https://eisenlegal.vercel.app/'
+	},
+	{
+		title: 'Themeaduane',
+		url: 'https://themeaduane.vercel.app/'
+	},
+]
 </script>
 
 <template lang="pug">
@@ -67,9 +90,13 @@ div
 	#projects
 		.title Projects
 		.project(class="mb-6" v-for="(project, idx) in projects" :key="idx")
-			NuxtLink(:to="project.url")
+			NuxtLink(:to="project.url" class="inline-block")
 				.project-title(class="font-spartan tracking-tight text-gray-700") {{ project.title }}
 			.description(class="text-[12px] text-gray-500") {{ project.description }}
+		.project
+			.project-title(class="font-spartan tracking-tight text-gray-700") Landing Pages
+			ul(class="text-[12px] text-gray-500 columns-2 gap-x-8")
+				li(v-for="(project, idx) in other" :key="idx") #[NuxtLink(:to="project.url") {{ project.title }}]
 	hr(class="my-8")
 	#contact
 		.title Contact
