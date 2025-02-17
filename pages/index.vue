@@ -20,6 +20,11 @@ const skills = [
 
 const projects = [
 	{
+		title: 'Resume',
+		url: 'https://resume.niiaryeh.com/',
+		description: 'Simple Resume App in 3 easy steps. Fill in your details, choose a template, and download your resume.'
+	},
+	{
 		title: 'Hire Africa',
 		url: 'https://hireafrica.io/',
 		description: 'Hire Africa is an initiative which ensures African talent is recognized and included not as a token gesture, but for the real value we bring to the table. We\’re here to challenge and change the perception of African professionals on the global stage.'
