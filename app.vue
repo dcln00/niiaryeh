@@ -6,12 +6,12 @@ useHead({
 useSeoMeta({
 	title: 'Nii Aryeh',
 	ogTitle: 'Nii Aryeh',
-	description: `Best Vue Developer in Ghana. Top 1% of Software Developers in Ghana.`,
-	ogDescription: `Best Vue Developer in Ghana. Top 1% of Software Developers in Ghana.`,
+	description: `Software Developer`,
+	ogDescription: `Software Developer`,
 	ogType: 'website',
 	ogImage: 'https://res.cloudinary.com/dyr6sb7gn/image/upload/v1736003562/niiaryeh_q4xeqm.jpg',
 	ogUrl: 'https://www.niiaryeh.com',
-	twitterDescription: 'Best Vue Developer in Ghana. Top 1% of Software Developers in Ghana.',
+	twitterDescription: 'Software Developer',
 	twitterCard: 'summary_large_image',
 })
 
@@ -20,7 +20,7 @@ const time= ref()
 
 onNuxtReady(() => {
   setInterval(() => {
-    time.value = dayjs().format('h:mm:ss A')
+    time.value = dayjs().tz("Africa/Accra").format('h:mm:ss A')
   }, 1000)
 })
 </script>
