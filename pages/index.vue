@@ -20,6 +20,11 @@ const skills = [
 
 const projects = [
 	{
+		title: 'Invoice',
+		url: 'https://invoice.niiaryeh.com/',
+		description: 'Simple Invoice App in 3 easy steps. Fill in your details, choose a template, and download your invoice.'
+	},
+	{
 		title: 'Resume',
 		url: 'https://resume.niiaryeh.com/',
 		description: 'Simple Resume App in 3 easy steps. Fill in your details, choose a template, and download your resume.'
