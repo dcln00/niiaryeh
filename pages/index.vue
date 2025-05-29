@@ -20,6 +20,11 @@ const skills = [
 
 const projects = [
 	{
+		title: 'Merdeo Foods',
+		url: 'https://merdeofoods.vercel.app/',
+		description: 'Merdeo Foods is a food delivery service that connects you with local restaurants and delivers your favorite meals right to your doorstep. We are committed to providing a seamless and convenient food delivery experience, ensuring that you can enjoy delicious meals from the comfort of your home.'
+	},
+	{
 		title: 'Invoice',
 		url: 'https://invoice.niiaryeh.com/',
 		description: 'Simple Invoice App in 3 easy steps. Fill in your details, choose a template, and download your invoice.'
@@ -35,11 +40,6 @@ const projects = [
 		description: 'Hire Africa is an initiative which ensures African talent is recognized and included not as a token gesture, but for the real value we bring to the table. We\’re here to challenge and change the perception of African professionals on the global stage.'
 	},
 	{
-		title: 'Blackband',
-		url: 'https://blackband.co/',
-		description: 'Our dynamic platform connects individuals and enterprises to strategic partnerships, travel, and lifestyle experiences to learn more about Africa.Our experts, including travel planners, cultural ambassadors, and local guides, curate premium cultural experiences connecting African diaspora travelers with authentic African cultural experiences.'
-	},
-	{
 		title: 'Crescendo Foods',
 		url: 'https://www.crescendogh.com/',
 		description: 'Crescendo, an affordable community centered Ghana FDA-approved kitchen space.'
@@ -53,6 +53,11 @@ const projects = [
 		title: 'Cassette',
 		url: 'https://cassette.productions/',
 		description: 'Cassette, a media production collective based in Ghana.'
+	},
+	{
+		title: 'Blackband',
+		url: 'https://blackband.co/',
+		description: 'Our dynamic platform connects individuals and enterprises to strategic partnerships, travel, and lifestyle experiences to learn more about Africa.Our experts, including travel planners, cultural ambassadors, and local guides, curate premium cultural experiences connecting African diaspora travelers with authentic African cultural experiences.'
 	},
 	{
 		title: 'Streamlab',
@@ -71,12 +76,12 @@ const other = [
 		url: 'https://thecreativeinc.agency/'
 	},
 	{
-		title: 'Contacts',
-		url: 'https://contacts.niiaryeh.com/'
-	},
-	{
 		title: 'Eisenlegal',
 		url: 'https://eisenlegal.vercel.app/'
+	},
+	{
+		title: 'Contacts',
+		url: 'https://contacts.niiaryeh.com/'
 	},
 	{
 		title: 'Themeaduane',
