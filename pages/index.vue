@@ -22,7 +22,7 @@ const projects = [
 	{
 		title: 'Merdeo Foods',
 		url: 'https://merdeofoods.vercel.app/',
-		description: 'Merdeo Foods is a food delivery service that connects you with local restaurants and delivers your favorite meals right to your doorstep. We are committed to providing a seamless and convenient food delivery experience, ensuring that you can enjoy delicious meals from the comfort of your home.'
+		description: 'Merdeo Foods is a food delivery service that connects you with local farmers and delivers fresh ingredients right to your doorstep. We are committed to providing a seamless and convenient food delivery experience, ensuring that you can enjoy delicious meals from the comfort of your home.'
 	},
 	{
 		title: 'Invoice',
