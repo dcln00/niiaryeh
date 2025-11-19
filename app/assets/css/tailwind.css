@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+	--color-brand-accent:rgb(208, 186, 75);
+	--color-brand-yellow: #f1da68;
+	--color-brand-tan: #f7f3ea;
+	--color-brand-black: #232323;
+}
+
+@utility container {
+	margin-inline: auto;
+	padding-inline: 4rem;
+}
+
+* {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Source Code Pro", serif;
+}
+
+@utility font-spartan {
+	font-family: "League Spartan", sans-serif;
+}
+
+@utility title {
+	@apply font-spartan tracking-tight text-xl mb-4;
+}

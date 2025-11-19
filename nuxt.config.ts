@@ -1,29 +1,25 @@
 export default defineNuxtConfig({
-	compatibilityDate: '2024-11-01',
+	compatibilityDate: "2024-11-01",
 	devtools: { enabled: false },
 	modules: [
-		'@nuxtjs/google-fonts',
-		'nuxt-svgo',
-		'@nuxtjs/tailwindcss',
-		'@nuxt/image',
-		'dayjs-nuxt',
+		"@nuxtjs/tailwindcss",
+		"@nuxt/image",
+		"dayjs-nuxt",
+		"@nuxt/fonts",
 	],
 	tailwindcss: {
 		viewer: false,
-		cssPath: ['~/assets/tailwind.css', { injectPosition: 'first' }],
 	},
-	googleFonts: {
-		families: {
-			'Source Code Pro': '200..900',
-			'League Spartan': '100..900',
+	fonts: {
+		defaults: {
+			weights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
 		},
-		preload: true,
 	},
 	dayjs: {
-		plugins: ['timezone'],
-		defaultTimezone: 'Africa/Accra',
+		plugins: ["timezone"],
+		defaultTimezone: "Africa/Accra",
 	},
 	nitro: {
-		preset: 'vercel',
+		preset: "vercel",
 	},
 })
