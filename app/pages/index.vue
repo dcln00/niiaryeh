@@ -41,16 +41,16 @@ const projects = [
 
 <template lang="pug">
 div
-	#intro
+	//- #intro
 		.title Passionate about building professional digital experiences
 		.description(class="text-[12px] text-gray-500") I aim to create innovative and seamless applications. I focus on user-centric design, ensuring that every solution is both functional and visually appealing.
-	hr(class="my-8 text-gray-200")
-	#skills
+	//- hr(class="my-8 text-gray-200")
+	//- #skills
 		.title Skills and Expertise
 		.skill(class="mb-6 w-full lg:w-4/5" v-for="(skill, idx) in skills" :key="idx")
 			.skill-title(class="font-spartan tracking-tight text-gray-700") {{ skill.title }}
 			.description(class="text-[12px] text-gray-500") {{ skill.description }}
-	hr(class="my-8 text-gray-200")
+	//- hr(class="my-8 text-gray-200")
 	#projects
 		.title Projects
 		.project(class="mb-6" v-for="(project, idx) in projects" :key="idx")
