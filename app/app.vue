@@ -35,11 +35,6 @@ main.container(class="flex flex-wrap")
 			.details(class="flex *:text-[12px] *:text-gray-500 space-x-2")
 				.time {{ time }}
 				.loc Accra, Ghana 🇬🇭
-			.socials(class="flex space-x-4 mt-8 *:text-xl")
-				NuxtLink(to="https://github.com/dcln00")
-					svgo-github
-				NuxtLink(to="https://www.linkedin.com/in/nii-aryeh/")
-					svgo-linkedin
 	section#content(class="w-full lg:w-1/2 p-4 max-lg:px-0 py-20")
 		NuxtPage
 </template>
