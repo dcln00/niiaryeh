@@ -16,16 +16,6 @@ const skills = [
 
 const projects = [
 	{
-		title: 'Stained Fruit',
-		url: 'https://stainedfruit.com/',
-		description: 'Stained Fruit is a creative agency specializing in marketing research and strategy, branding, visual media, and web development.'
-	},
-	{
-		title: 'Loft',
-		url: 'https://loftaccra.com/',
-		description: 'Loft is a furniture store specializing in modern contemporary furniture, offering stylish and functional pieces designed to elevate modern living spaces.'
-	},
-	{
 		title: 'Invoice',
 		url: 'https://invoice.niiaryeh.com/',
 		description: 'Simple Invoice App in 3 easy steps. Fill in your details, choose a template, and download your invoice.'
@@ -35,7 +25,11 @@ const projects = [
 		url: 'https://resume.niiaryeh.com/',
 		description: 'Simple Resume App in 3 easy steps. Fill in your details, choose a template, and download your resume.'
 	},
-	
+	{
+		title: 'Loft',
+		url: 'https://loftaccra.com/',
+		description: 'Loft is a furniture store specializing in modern contemporary furniture, offering stylish and functional pieces designed to elevate modern living spaces.'
+	}
 ]
 </script>
 
