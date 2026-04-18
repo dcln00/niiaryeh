@@ -29,6 +29,11 @@ const projects = [
 		title: 'Loft',
 		url: 'https://loftaccra.com/',
 		description: 'Loft is a furniture store specializing in modern contemporary furniture, offering stylish and functional pieces designed to elevate modern living spaces.'
+	},
+	{
+		title: 'Streamlab',
+		url: 'https://streamlab.niiaryeh.com/',
+		description: 'Streamlab is a video streaming web app that serves as a movie and TV content discovery platform. It showcases films and shows with ratings, release years, and brief descriptions, organized into sections like "Trending This Week," "Now Playing," "Popular," and "Coming Soon."'
 	}
 ]
 </script>
