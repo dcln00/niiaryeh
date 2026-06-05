@@ -16,6 +16,11 @@ const skills = [
 
 const projects = [
 	{
+		title: 'Fintrack',
+		url: 'https://fintrack.niiaryeh.com/',
+		description: 'Fintrack is a web app for tracking your finances, organized by income, expenses, and savings.'
+	},
+	{
 		title: 'Invoice',
 		url: 'https://invoice.niiaryeh.com/',
 		description: 'Simple Invoice App in 3 easy steps. Fill in your details, choose a template, and download your invoice.'
@@ -28,12 +33,12 @@ const projects = [
 	{
 		title: 'Loft',
 		url: 'https://loftaccra.com/',
-		description: 'Loft is a furniture store specializing in modern contemporary furniture, offering stylish and functional pieces designed to elevate modern living spaces.'
+		description: 'Loft is a furniture store specializing in modern contemporary furniture.'
 	},
 	{
 		title: 'Streamlab',
 		url: 'https://streamlab.niiaryeh.com/',
-		description: 'Streamlab is a video streaming web app that serves as a movie and TV content discovery platform. It showcases films and shows with ratings, release years, and brief descriptions, organized into sections like "Trending This Week," "Now Playing," "Popular," and "Coming Soon."'
+		description: 'Streamlab is a web app for discovering movies and shows, organized by trending, popular, and new releases.'
 	}
 ]
 </script>
